@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content ="Hiroki Kaji">
+    <!-- ページ内容を表すキーワード（3〜5つくらい） -->
+    <meta name="keywords" content="css, box model, flex box">
+    <!-- CSSとの紐付け．CSSへのパスは相対パスで記述する． -->
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Introduce</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <img src = "media/RMahiro.png" alt = "マイアイコン" width = 50 height=80>
+            <h1 id="top">☆トップページ☆</h1>
+        </div>
+        <nav id="menu">
+            <a href="index.html">トップページ</a>
+            <a href="./html/unity.html">自作ゲーム紹介ページ</a>
+            <a href="./html/game.html">サーバー紹介ページ</a>
+        </nav>
+    </header>
+    <div id="info">
+        <div id="TOC">
+            <div class="enclosure">
+                <h2>目次</h2>
+                <nav id="contents">
+                    <a href="#propaganda">宣伝</a>
+                    <a href="#introduction">自己紹介</a>
+                    <a href="#othercontent">その他</a>
+                </nav>
+            </div>
+        </div>
+        <div id="propaganda">
+            <h2> ♪ 宣伝</h2>
+            <div class="separator"></div>
+            <nav id="contents">
+                <script src="./js/index.js"></script>
+                <div class="slideshow">
+                    <div class="slide"><img src = "https://lh5.googleusercontent.com/nPx1M6ccJNPazb_aQVVVvmOe2kO2Me1StEJ5D7Sz5FS4tb0FEdykFksYmUbmx58zziaX7ruhRb2FE48I6Auc3ly01_K6_pp9xX100Qk4GV2BzB3gE8q62731QfzIY8X8zA=w1280" alt = "広告１" ></div>
+                    <div class="slide"><img src = "https://lh6.googleusercontent.com/-GozYS7VHCv2-gryVs5arvXSvQNZiek6VcjMaxTZ_c_0-ooLXTpqRzxLLSF5qfHTQcy-6UetZVMhMlEPrtJGxsRUYNnSn4aE2HW63G3kwpo2sB8p3wb-JksCQMSTxh51zA=w1280" alt = "広告２" ></div>
+                    <div class="slide"><img src = "https://lh4.googleusercontent.com/lY_fWr06l0l3l6s-rMw6xiB2u3MnXggj06W18E0HscVq3aEai7TTIXNLG0NaARqULlFm_i3rkmHev5QF2itl3WtHrrrSTdqI7sCZS3VG9ZPA2-UIV88COVqSOXbZNVCg_A=w1280" alt = "広告３" ></div>
+                    <div class="slide"><img src = "https://lh3.googleusercontent.com/f80TEy_bxKRaPDkcMw0a9kA8eQd0cfSfWK7aTG0afA5PCfT3hKVVfoW92UPhRUxzPfIvvpC-a4l0tV5G0SAj1pk_o_38lVw1xErUFO7JIxScVSPJN2N3ZJ-Vv7xwnHRj5w=w1280" alt = "広告４" ></div>
+                </div>
+            </nav>
+        </div>
+        <div id="introduction">
+            <h2> ♪ 自己紹介</h2>
+            <div class="separator"></div>
+            <div id="introductionBox"class="flexbox">
+                <img src = "media/mahiro_icon.JPG" alt = "マイイメージ" width = 300>
+                <div>
+                    <p>名前：李唯まひろ</p>
+                    <p>年齢：２１歳</p>
+                    <p>性別：男</p>
+                    <p>趣味：ゲーム・アニメ</p>
+                    <p>よくやっていること：</p>
+                    <p>&nbsp;&nbsp;・Discordサーバー管理者</p>
+                    <p>&nbsp;&nbsp;・プロセカイベラン支援</p>
+                    <p>&nbsp;&nbsp;・Unityゲーム開発</p>
+                </div>
+            </div>
+        </div>
+        <div id="othercontent">
+            <h2> ♪ その他</h2>
+            <div class="separator"></div>
+            <div id="othercontentBox"class="flexbox">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vEwEM5VCx-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div>
+                    <p>楽曲名&nbsp;花舞い散る&nbsp;（オリジナル楽曲）</p>
+                    <p>作曲・作詞&nbsp;李唯まひろ</p>
+                    <p>&nbsp;</p>
+                    <p>鏡音リン・レンの音源を購入したので、リメイクも兼ねて作りました</p>
+                    <p>可愛いリンちゃんは別の方に描いていただきました！（可愛いすぎる...）</p>
+                    <p>2022年現在&nbsp;このコンテンツは黒歴史となっています。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <nav>
+            <a href="index.html">トップページ</a>
+            <a href="./html/unity.html">自作ゲーム紹介ページ</a>
+            <a href="./html/game.html">サーバー紹介ページ</a>
+        </nav>
+        <div>
+            <a href="https://twitter.com/RiyuiMahiro"><img src = "media/twitter.png" alt = "twitterアイコン" width = 100></a>
+            <a href="https://www.youtube.com/@RiYuiMahiro"><img src = "media/youtube.png" alt = "YouTubeアイコン" width = 100></a>
+        </div>
+    </footer>
+</body>
+</html>
